@@ -1,0 +1,21 @@
+<table class="table table-primary">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Control Number</th>
+        </tr>
+    
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{ student.id }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.address }}</td>
+            <td>{{ student.phone_number }}</td>
+            <td>{{ student.control_number }}</td>
+        </tr>
+    </tbody>
+</table>
